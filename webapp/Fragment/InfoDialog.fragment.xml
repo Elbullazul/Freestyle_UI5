@@ -1,0 +1,22 @@
+<core:FragmentDefinition xmlns="sap.m" xmlns:l="sap.ui.layout" xmlns:f="sap.ui.layout.form" xmlns:core="sap.ui.core">
+	<Dialog id="infoDialog">
+		<customHeader>
+			<Bar>
+				<contentLeft/>
+				<contentMiddle>
+					<Title text="{i18n>infoDialogTitle}"/>
+				</contentMiddle>
+				<contentRight>
+					<core:Icon src="sap-icon://sys-cancel-2" color="Negative" press=".onCloseDialog"/>
+				</contentRight>
+			</Bar>
+		</customHeader>
+		<content>
+			<VBox alignItems="Center" class="sapUiMediumMargin">
+				<core:Icon src="sap-icon://sap-ui5" size="10em" class="sapUiSmallMargin" color="#0075b4"/>
+				<Text text="{i18n>madeWithUI5}" class="sapUiSmallMargin"/>
+				<Text text="{i18n>copyright}" />
+			</VBox>
+		</content>
+	</Dialog>
+</core:FragmentDefinition>

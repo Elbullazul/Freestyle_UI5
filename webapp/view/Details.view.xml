@@ -1,0 +1,42 @@
+<mvc:View
+	controllerName="sap.ui.demo.sequel.Sequel.controller.Details"
+	xmlns="sap.m"
+	xmlns:mvc="sap.ui.core.mvc"
+	xmlns:c="sap.ui.demo.sequel.Sequel.control">
+	<Page
+		title="{i18n>detailPageTitle}"
+		showNavButton="true"
+		navButtonPress=".onNavBack">
+		<headerContent>
+			<c:LinkButton icon="sap-icon://source-code" href="{theme>Repository}" text="{i18n>github}" type="Neutral"/>
+		</headerContent>
+		<ObjectHeader
+			icon="../../img/{theme>Icon}"
+			intro="{theme>Category}"
+			title="{theme>ThemeName}"
+			number="{theme>Downloads}"
+			numberUnit="{i18n>downloads}">
+			<ObjectAttribute text="{theme>Description}" />
+			<ObjectAttribute text="{i18n>latestStable}: {theme>Version}" />
+			<ObjectAttribute text="{i18n>license}: {theme>License}" />
+			<ObjectAttribute text="{i18n>collection}: {theme>Collection}" class="sapUiSmallMarginTop"/>
+			<ObjectAttribute text="{i18n>shells}: {theme>Shells}" />
+			<ObjectAttribute text="{i18n>copyright}" />
+		</ObjectHeader>
+		<OverflowToolbar>
+			<c:LinkButton icon="sap-icon://download" href="{theme>Repository}/{i18n>packageURL}" text="{i18n>download}" type="Emphasized" styleClass="sapUiSmallMarginBegin"/>
+			<c:LinkButton icon="sap-icon://product" href="{theme>Repository}/{i18n>releasesURL}" text="{i18n>releases}" type="Accept" styleClass="sapUiSmallMarginBegin"/>
+			<c:LinkButton icon="sap-icon://message-warning" href="{theme>Repository}/{i18n>bugtrackerURL}" text="{i18n>bugtracker}" type="Reject" styleClass="sapUiSmallMarginBegin"/>
+		</OverflowToolbar>
+		<VBox width="100%">
+			<Carousel class="sapUiContentPadding" loop="true" width="100%">
+				<pages>
+					<Image src="../../img/{theme>Thumbnails/0}" alt="Preview 0"/>
+					<Image src="../../img/{theme>Thumbnails/1}" alt="Preview 1"/>
+					<Image src="../../img/{theme>Thumbnails/2}" alt="Preview 2"/>
+					<Image src="../../img/{theme>Thumbnails/3}" alt="Preview 3"/>
+				</pages>
+			</Carousel>
+		</VBox>
+	</Page>
+</mvc:View>

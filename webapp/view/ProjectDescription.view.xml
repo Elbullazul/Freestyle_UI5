@@ -1,0 +1,21 @@
+<mvc:View
+	controllerName="sap.ui.demo.sequel.Sequel.controller.ProjectDescription"
+	xmlns="sap.m"
+	xmlns:l="sap.ui.layout"
+	xmlns:c="sap.ui.demo.sequel.Sequel.control"
+	xmlns:mvc="sap.ui.core.mvc">
+	
+	<Panel width="auto"  accessibleRole="Region">
+		<content>
+			<VBox alignItems="Center">
+				<Image src="../../img/b00merang-icon-dark-left.png" width="3em" class="sapUiSmallMarginBottom" />
+				<Title text="{i18n>whoAreWe}" level="H1" class="sapUiSmallMarginBottom"/>
+				<Text text="{i18n>projectDescription}" class="sapUiSmallMarginBottom"/>
+				<HBox>
+					<c:LinkButton text="{i18n>projectGithub}" type="Neutral" tooltip="{i18n>projectGithub}" href="https://github.com/B00merang-Project" styleClass="sapUiTinyMarginEnd"/>
+					<Button text="{i18n>aboutUs}" press="onAboutPress" class="sapUiTinyMarginBegin"/>
+				</HBox>
+			</VBox>
+		</content>
+	</Panel>
+</mvc:View> 

@@ -1,0 +1,42 @@
+<core:FragmentDefinition xmlns="sap.m" xmlns:l="sap.ui.layout" xmlns:f="sap.ui.layout.form" xmlns:core="sap.ui.core">
+	<Dialog id="contactDialog" title="Hello {/recipient/name}">
+		<customHeader>
+			<Bar>
+				<contentLeft/>
+				<contentMiddle>
+					<Title text="{i18n>contactFormTitle}"/>
+				</contentMiddle>
+				<contentRight>
+					<core:Icon src="sap-icon://sys-cancel-2" color="Negative" press=".onCloseDialog"/>
+				</contentRight>
+			</Bar>
+		</customHeader>
+		<content>
+			<VBox class="sapUiSmallMargin">
+				<f:SimpleForm id="SimpleFormToolbar" editable="true" layout="ResponsiveGridLayout" labelSpanXL="4" labelSpanL="3" labelSpanM="4"
+					labelSpanS="12" adjustLabelSpan="false" emptySpanXL="0" emptySpanL="4" emptySpanM="0" emptySpanS="0" columnsXL="1" columnsL="1" columnsM="1"
+					singleContainerFullSize="false" ariaLabelledBy="Title1">
+					<f:content>
+						<Label text="{i18n>name}"/>
+						<Input id="name"/>
+						<Label text="{i18n>email}"/>
+						<Input id="email" type="Email"></Input>
+						<Label text="{i18n>relatedTheme}"/>
+						<Input id="relatedTheme"/>
+						<Label text="{i18n>contactReason}"/>
+						<Select id="contactReason">
+							<items>
+								<core:Item text="{i18n>forFeedback}" key="feedback"/>
+								<core:Item text="{i18n>forSupport}" key="support"/>
+								<core:Item text="{i18n>forSuggestion}" key="suggestion"/>
+							</items>
+						</Select>
+						<Label text="{i18n>comment}"/>
+						<TextArea id="comment" value="{comment}"/>
+						<Button text="{i18n>submit}" type="Emphasized" press=".onSubmit"/>
+					</f:content>
+				</f:SimpleForm>
+			</VBox>
+		</content>
+	</Dialog>
+</core:FragmentDefinition>

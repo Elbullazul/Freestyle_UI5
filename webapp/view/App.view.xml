@@ -1,0 +1,10 @@
+<mvc:View
+	controllerName="sap.ui.demo.sequel.Sequel.controller.App"
+	xmlns="sap.m"
+	xmlns:f="sap.f"
+	xmlns:mvc="sap.ui.core.mvc"
+	displayBlock="true">
+	<Shell backgroundImage="https://i2.wp.com/www.123freevectors.com/wp-content/original/110489-blue-blurred-background-vector.jpg">
+		<App class="myAppDemoWT" id="app"/>
+	</Shell>
+</mvc:View>

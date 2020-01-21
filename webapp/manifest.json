@@ -1,0 +1,139 @@
+{
+	"_version": "1.12.0",
+	"sap.app": {
+		"id": "sap.ui.demo.sequel.Sequel",
+		"type": "application",
+		"i18n": "i18n/i18n.properties",
+		"applicationVersion": {
+			"version": "1.0.0"
+		},
+		"title": "{{appTitle}}",
+		"description": "{{appDescription}}",
+		"resources": "resources.json",
+		"ach": "ach",
+		"sourceTemplate": {
+			"id": "ui5template.basicSAPUI5ApplicationProject",
+			"version": "1.40.12"
+		}
+	},
+
+	"sap.ui": {
+		"technology": "UI5",
+		"icons": {
+			"icon": "",
+			"favIcon": "",
+			"phone": "",
+			"phone@2": "",
+			"tablet": "",
+			"tablet@2": ""
+		},
+		"deviceTypes": {
+			"desktop": true,
+			"tablet": true,
+			"phone": true
+		}
+	},
+
+	"sap.ui5": {
+		"flexEnabled": false,
+		"rootView": {
+			"viewName": "sap.ui.demo.sequel.Sequel.view.App",
+			"type": "XML",
+			"async": true,
+			"id": "App"
+		},
+		"dependencies": {
+			"minUI5Version": "1.65.6",
+			"libs": {
+				"sap.ui.layout": {},
+				"sap.ui.core": {},
+				"sap.m": {}
+			}
+		},
+		"contentDensities": {
+			"compact": true,
+			"cozy": true
+		},
+		"models": {
+			"i18n": {
+				"type": "sap.ui.model.resource.ResourceModel",
+				"settings": {
+					"bundleName": "sap.ui.demo.sequel.Sequel.i18n.i18n"
+				}
+			},
+			"theme": {
+				"type": "sap.ui.model.json.JSONModel",
+				"uri": "themes.json"
+			}
+		},
+		"resources": {
+			"css": [{
+				"uri": "css/style.css"
+			}]
+		},
+		"routing": {
+			"config": {
+				"routerClass": "sap.m.routing.Router",
+				"viewType": "XML",
+				"async": true,
+				"viewPath": "sap.ui.demo.sequel.Sequel.view",
+				"controlAggregation": "pages",
+				"controlId": "app"
+			},
+			"routes": [
+				{
+					"pattern": "",
+					"name": "home",
+					"target": "home"
+				},
+				{
+					"pattern": "details/{themeIndex}",
+					"name": "details",
+					"target": "details"
+				},
+				{
+					"pattern": "stats",
+					"name": "stats",
+					"target": "stats"
+				},
+				{
+					"pattern": "about",
+					"name": "about",
+					"target": "about"
+				},
+				{
+					"pattern": "support",
+					"name": "support",
+					"target": "support"
+				}
+			],
+			"targets": {
+				"home": {
+					"transition": "slide",
+					"viewId": "home",
+					"viewName": "Home"
+				},
+				"details": {
+					"transition": "slide",
+					"viewId": "details",
+					"viewName": "Details"
+				},
+				"stats": {
+					"transition": "slide",
+					"viewId": "stats",
+					"viewName": "Stats"
+				},
+				"about": {
+					"transition": "slide",
+					"viewId": "about",
+					"viewName": "About"
+				},
+				"support": {
+					"transition": "slide",
+					"viewId": "support",
+					"viewName": "Support"
+				}
+			}
+		}
+	}
+}

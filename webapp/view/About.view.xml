@@ -1,0 +1,30 @@
+<mvc:View
+	controllerName="sap.ui.demo.sequel.Sequel.controller.Stats"
+	xmlns="sap.m"
+	xmlns:l="sap.ui.layout"
+	xmlns:mvc="sap.ui.core.mvc">
+	<Page
+		title="{i18n>aboutPageTitle}"
+		showNavButton="true"
+		navButtonPress=".onNavBack">
+		<Panel width="auto" accessibleRole="Region">
+			<headerToolbar>
+				<OverflowToolbar height="3rem">
+					<Title text="{i18n>history}"/>
+				</OverflowToolbar>
+			</headerToolbar>
+			<content>
+				<VBox>
+					<Image src="../../img/B00merang.png" width="5em" />
+					<Text text="{i18n>firstLogo}" class="small"/>
+				</VBox>
+				<Text text="{i18n>projectHistory}" class="sapUiMediumMarginTop"/>
+				<Text text="{i18n>projectHistory_2}" class="sapUiMediumMarginTop"/>
+				<VBox>
+					<Text text="{i18n>contributors}" class="sapUiMediumMarginTop"/>
+					<Text text="{i18n>projectContributors}"/>
+				</VBox>
+			</content>
+		</Panel>
+	</Page>
+</mvc:View>

@@ -1,0 +1,642 @@
+{
+	"Themes": [
+	    {
+	        "ThemeName": "Glass",
+	        "Collection": "B00merang",
+	        "Category": "GTK theme",
+	        "Shells": [
+	            "Cinnamon",
+	            "Gnome",
+	            "Xfce",
+	            "MATE"
+	        ],
+	        "Description": "A dark blue theme with some transparency to relax",
+            "Icon": "glass_icon.png",
+	        "Thumbnails": [
+                "glass.png",
+                "glass_busy.png",
+                "glass_demo.png",
+                "glass_config.png"
+            ],
+	        "Downloads": 8700,
+			"Repository": "https://github.com/B00merang-Project/B00merang-Glass",
+			"License": "GPL v3",
+			"Version": 4.1
+	    },
+	    {
+	        "ThemeName": "Green",
+	        "Collection": "B00merang",
+	        "Category": "GTK theme",
+	        "Shells": [
+	            "Cinnamon",
+	            "Gnome",
+	            "MATE"
+	        ],
+	        "Description": "A dark green theme to change things up a bit",
+            "Icon": "green_icon.png",
+	        "Thumbnails": [
+                "green.png",
+                "green_busy.png",
+                "green_demo.png",
+                "green_config.png"
+            ],
+	        "Downloads": 3000,
+			"Repository": "https://github.com/B00merang-Project/B00merang-Green",
+			"License": "GPL v3",
+			"Version": 4.1
+	    },
+	    {
+	        "ThemeName": "Dark",
+	        "Collection": "B00merang",
+	        "Category": "GTK theme",
+	        "Shells": [
+	            "Cinnamon",
+	            "Gnome",
+	            "MATE"
+	        ],
+	        "Description": "A dark theme with blue highlight colors",
+            "Icon": "dark_icon.png",
+	        "Thumbnails": [
+                "dark.png",
+                "dark_busy.png",
+                "dark_demo.png",
+                "dark_config.png"
+            ],
+	        "Downloads": 6400,
+			"Repository": "https://github.com/B00merang-Project/B00merang-Dark",
+			"License": "GPL v3",
+			"Version": 4.1
+	    },
+	    {
+	        "ThemeName": "Circle",
+	        "Collection": "B00merang",
+	        "Category": "GTK theme",
+	        "Shells": [
+	            "Cinnamon",
+	            "Gnome",
+	            "MATE"
+	        ],
+	        "Description": "An orange theme with a very rounded aesthetic",
+            "Icon": "circle_icon.png",
+	        "Thumbnails": [
+                "circle.png",
+                "circle_busy.png",
+                "circle_demo.png",
+                "circle_config.png"
+            ],
+	        "Downloads": 750,
+			"Repository": "https://github.com/B00merang-Project/B00merang-Circle",
+			"License": "GPL v3",
+			"Version": 3.0
+	    },
+	    {
+	        "ThemeName": "Flat",
+	        "Collection": "B00merang",
+	        "Category": "GTK theme",
+	        "Shells": [
+	            "Cinnamon",
+	            "Gnome"
+	        ],
+	        "Description": "A mix of dark and light colors in a flat aesthetic",
+            "Icon": "flat_icon.png",
+	        "Thumbnails": [
+                "flat.png",
+                "flat_busy.png",
+                "flat_demo.png",
+                "flat_config.png"
+            ],
+	        "Downloads": 2100,
+			"Repository": "https://github.com/B00merang-Project/B00merang-Flat",
+			"License": "GPL v3",
+			"Version": 1.1
+	    },
+	    {
+	        "ThemeName": "Brome",
+	        "Collection": "B00merang",
+	        "Category": "GTK theme",
+	        "Shells": [
+	            "Gnome"
+	        ],
+	        "Description": "A semi-dark theme with red accents",
+            "Icon": "brome_icon.png",
+	        "Thumbnails": [
+                "brome.png",
+                "brome_busy.png",
+                "brome_demo.png",
+                "brome_config.png"
+            ],
+	        "Downloads": 161,
+			"Repository": "https://github.com/B00merang-Project/B00merang-Brome",
+			"License": "GPL v3",
+			"Version": "beta"
+	    },
+	    {
+	        "ThemeName": "Windows Server 2019",
+	        "Collection": "Windows",
+	        "Category": "GTK theme",
+	        "Shells": [
+	            "Cinnamon",
+	            "Gnome",
+	            "MATE"
+	        ],
+	        "Description": "Windows Server's 2019 skin",
+            "Icon": "win10_icon.png",
+	        "Thumbnails": [
+                "win2019.png",
+                "win2019_busy.png",
+                "win2019_demo.png",
+                "win2019_config.png"
+            ],
+	        "Downloads": 1100,
+			"Repository": "https://github.com/B00merang-Project/Windows-Server-2019",
+			"License": "GPL v3",
+			"Version": 1.1
+	    },
+	    {
+	        "ThemeName": "Windows 10 Fluent",
+	        "Collection": "Windows",
+	        "Category": "GTK theme",
+	        "Shells": [
+	            "Cinnamon",
+	            "Gnome",
+	            "MATE"
+	        ],
+	        "Description": "The Fluent appearance of UWP apps",
+            "Icon": "win10_icon.png",
+	        "Thumbnails": [
+                "fluent.png",
+                "fluent_busy.png",
+                "fluent_demo.png",
+                "fluent_config.png"
+            ],
+	        "Downloads": 7100,
+			"Repository": "https://github.com/B00merang-Project/Windows-10-Acrylic",
+			"License": "GPL v3",
+			"Version": 5.0
+	    },
+	    {
+	        "ThemeName": "Windows 10",
+	        "Collection": "Windows",
+	        "Category": "GTK theme",
+	        "Shells": [
+	            "Cinnamon",
+	            "Gnome",
+	            "Xfce",
+	            "MATE",
+	            "LXDE"
+	        ],
+	        "Description": "Replicate the Win32 appearance of Windows 10 on Linux",
+            "Icon": "win10_icon.png",
+	        "Thumbnails": [
+                "win10.png",
+                "win10_busy.png",
+                "win10_demo.png",
+                "win10_config.png"
+            ],
+	        "Downloads": 185000,
+			"Repository": "https://github.com/B00merang-Project/Windows-10",
+			"License": "GPL v3",
+			"Version": 3.1
+	    },
+	    {
+	        "ThemeName": "Windows 8.1",
+	        "Collection": "Windows",
+	        "Category": "GTK theme",
+	        "Shells": [
+	            "Cinnamon",
+	            "Gnome",
+	            "MATE"
+	        ],
+	        "Description": "Experience the mix of new and old found in Windows 8.1's appearance",
+            "Icon": "win8_icon.png",
+	        "Thumbnails": [
+                "win8.png",
+                "win8_busy.png",
+                "win8_demo.png",
+                "win8_config.png"
+            ],
+	        "Downloads": 1100,
+			"Repository": "https://github.com/B00merang-Project/Windows-8",
+			"License": "GPL v3",
+			"Version": 1.0
+	    },
+	    {
+	        "ThemeName": "Windows 7",
+	        "Collection": "Windows",
+	        "Category": "GTK theme",
+	        "Shells": [
+	            "Cinnamon",
+	            "Gnome",
+	            "MATE"
+	        ],
+	        "Description": "Revive Windows 7's Aero theme on Linux",
+            "Icon": "win7_icon.png",
+	        "Thumbnails": [
+                "win7.png",
+                "win7_busy.png",
+                "win7_demo.png",
+                "win7_config.png"
+            ],
+	        "Downloads": 12000,
+			"Repository": "https://github.com/B00merang-Project/Windows-7",
+			"License": "GPL v3",
+			"Version": 2.0
+	    },
+	    {
+	        "ThemeName": "Windows Vista",
+	        "Collection": "Windows",
+	        "Category": "GTK theme",
+	        "Shells": [
+	            "Cinnamon",
+	            "Gnome",
+	            "MATE"
+	        ],
+	        "Description": "Windows Vista's Aero theme",
+            "Icon": "vista_icon.png",
+	        "Thumbnails": [
+                "vista.png",
+                "vista_busy.png",
+                "vista_demo.png",
+                "vista_config.png"
+            ],
+	        "Downloads": 1600,
+			"Repository": "https://github.com/B00merang-Project/Windows-Vista",
+			"License": "GPL v3",
+			"Version": 1.0
+	    },
+	    {
+	        "ThemeName": "Windows XP",
+	        "Collection": "Windows",
+	        "Category": "GTK theme",
+	        "Shells": [
+	            "Cinnamon",
+	            "Gnome",
+	            "MATE"
+	        ],
+	        "Description": "The Luna theme is given a second life on Linux",
+            "Icon": "winxp_icon.png",
+	        "Thumbnails": [
+                "winxp.png",
+                "winxp_busy.png",
+                "winxp_demo.png",
+                "winxp_config.png"
+            ],
+	        "Downloads": 12500,
+			"Repository": "https://github.com/B00merang-Project/Windows-XP",
+			"License": "GPL v3",
+			"Version": 3.0
+	    },
+	    {
+	        "ThemeName": "Windows 3.11",
+	        "Collection": "Windows",
+	        "Category": "GTK theme",
+	        "Shells": [
+	            "Cinnamon",
+	            "Gnome",
+	            "MATE"
+	        ],
+	        "Description": "The OG Win32 application appearance",
+            "Icon": "win311_icon.png",
+	        "Thumbnails": [
+                "win311.png",
+                "win311_busy.png",
+                "win311_demo.png",
+                "win311_config.png"
+            ],
+	        "Downloads": 880,
+			"Repository": "https://github.com/B00merang-Project/Windows-3.11",
+			"License": "GPL v3",
+			"Version": 1.1
+	    },
+	    {
+	        "ThemeName": "macOS Catalina",
+	        "Collection": "macOS",
+	        "Category": "GTK theme",
+	        "Shells": [
+	            "Cinnamon",
+	            "Gnome",
+	            "MATE",
+                "Xfce"
+	        ],
+	        "Description": "Get macOS's modern appearance on Linux",
+            "Icon": "catalina_icon.png",
+	        "Thumbnails": [
+                "catalina.png",
+                "catalina_busy.png",
+                "catalina_demo.png",
+                "catalina_config.png"
+            ],
+	        "Downloads": 37800,
+			"Repository": "https://github.com/B00merang-Project/macOS",
+			"License": "GPL v3",
+			"Version": 5.1
+	    },
+	    {
+	        "ThemeName": "OS X Yosemite",
+	        "Collection": "macOS",
+	        "Category": "GTK theme",
+	        "Shells": [
+	            "Cinnamon",
+	            "Gnome",
+	            "MATE"
+	        ],
+	        "Description": "The first iteration of Apple's modern UI",
+            "Icon": "yosemite_icon.png",
+	        "Thumbnails": [
+                "yosemite.png",
+                "yosemite_busy.png",
+                "yosemite_demo.png",
+                "yosemite_config.png"
+            ],
+	        "Downloads": 116400,
+			"Repository": "https://github.com/B00merang-Project/OS-X-Yosemite",
+			"License": "GPL v3",
+			"Version": 2.0
+	    },
+	    {
+	        "ThemeName": "iOS 4",
+	        "Collection": "macOS",
+	        "Category": "GTK theme",
+	        "Shells": [
+	            "Gnome"
+	        ],
+	        "Description": "Revisit the Aqua guidelines from the 2010s on Linux",
+            "Icon": "ios4_icon.png",
+	        "Thumbnails": [
+                "ios4.png",
+                "ios4_busy.png",
+                "ios4_demo.png",
+                "ios4_config.png"
+            ],
+	        "Downloads": 1500,
+			"Repository": "https://github.com/B00merang-Project/iOS-4",
+			"License": "GPL v3",
+			"Version": 2.1
+	    },
+        {
+	        "ThemeName": "iOS",
+	        "Collection": "macOS",
+	        "Category": "GTK theme",
+	        "Shells": [
+	            "Gnome",
+                "Cinnamon",
+                "MATE"
+	        ],
+	        "Description": "Apple's modern and flat mobile UI",
+            "Icon": "ios_icon.png",
+	        "Thumbnails": [
+                "ios.png",
+                "ios_busy.png",
+                "ios_demo.png",
+                "ios_config.png"
+            ],
+	        "Downloads": 5300,
+			"Repository": "https://github.com/B00merang-Project/iOS",
+			"License": "GPL v3",
+			"Version": 2.0
+	    },
+        {
+	        "ThemeName": "Chrome OS",
+	        "Collection": "Google OS",
+	        "Category": "GTK theme",
+	        "Shells": [
+	            "Gnome",
+                "Cinnamon",
+                "MATE"
+	        ],
+	        "Description": "Material Design 2 for the Chromebook",
+            "Icon": "chrome_icon.png",
+	        "Thumbnails": [
+                "chrome.png",
+                "chrome_busy.png",
+                "chrome_demo.png",
+                "chrome_config.png"
+            ],
+	        "Downloads": 10400,
+			"Repository": "https://github.com/B00merang-Project/Chrome-OS",
+			"License": "GPL v3",
+			"Version": 2.0
+	    },
+        {
+	        "ThemeName": "Android",
+	        "Collection": "Google OS",
+	        "Category": "GTK theme",
+	        "Shells": [
+	            "Gnome",
+                "Cinnamon",
+                "MATE"
+	        ],
+	        "Description": "Material Design 2 for the Pixel",
+            "Icon": "android_icon.png",
+	        "Thumbnails": [
+                "android.png",
+                "android_busy.png",
+                "android_demo.png",
+                "android_config.png"
+            ],
+	        "Downloads": 2900,
+			"Repository": "https://github.com/B00merang-Project/Android",
+			"License": "GPL v3",
+			"Version": 4.0
+	    },
+        {
+	        "ThemeName": "Unity 7",
+	        "Collection": "Canonical",
+	        "Category": "GTK theme",
+	        "Shells": [
+	            "Gnome",
+                "Cinnamon",
+                "MATE"
+	        ],
+	        "Description": "The good old Ambiance theme",
+            "Icon": "trusty_icon.png",
+	        "Thumbnails": [
+                "unity7.png",
+                "unity7_busy.png",
+                "unity7_demo.png",
+                "unity7_config.png"
+            ],
+	        "Downloads": 700,
+			"Repository": "https://github.com/B00merang-Project/Unity-7",
+			"License": "GPL v3",
+			"Version": 1.0
+	    },
+        {
+	        "ThemeName": "Unity 8",
+	        "Collection": "Canonical",
+	        "Category": "GTK theme",
+	        "Shells": [
+	            "Gnome",
+                "Cinnamon",
+                "MATE"
+	        ],
+	        "Description": "The Yaru precursor for Unity 8",
+            "Icon": "xenial_icon.png",
+	        "Thumbnails": [
+                "unity8.png",
+                "unity8_busy.png",
+                "unity8_demo.png",
+                "unity8_config.png"
+            ],
+	        "Downloads": 5500,
+			"Repository": "https://github.com/B00merang-Project/Unity-8",
+			"License": "GPL v3",
+			"Version": 2.0
+	    },
+        {
+	        "ThemeName": "Solaris 11.4",
+	        "Collection": "Solaris",
+	        "Category": "GTK theme",
+	        "Shells": [
+	            "Gnome"
+	        ],
+	        "Description": "Solaris 11.4 finally updated to GNOME 3. Old Adwaita is included",
+            "Icon": "adwaita_icon.png",
+	        "Thumbnails": [
+                "adwaita.png",
+                "adwaita_busy.png",
+                "adwaita_demo.png",
+                "adwaita_config.png"
+            ],
+	        "Downloads": 450,
+			"Repository": "https://github.com/B00merang-Project/Adwaita",
+			"License": "GPL v3",
+			"Version": 1.0
+	    },
+	    {
+	        "ThemeName": "Solaris 11",
+	        "Collection": "Solaris",
+	        "Category": "GTK theme",
+	        "Shells": [
+	            "Gnome"
+	        ],
+	        "Description": "Solaris 11's Nimbus theme is unique in its own way",
+            "Icon": "nimbus_icon.png",
+	        "Thumbnails": [
+                "nimbus.png",
+                "nimbus_busy.png",
+                "nimbus_demo.png",
+                "nimbus_config.png"
+            ],
+	        "Downloads": 2800,
+			"Repository": "https://github.com/B00merang-Project/Solaris-11",
+			"License": "GPL v3",
+			"Version": 3.1
+	    },
+	    {
+	        "ThemeName": "Solaris 10",
+	        "Collection": "Solaris",
+	        "Category": "GTK theme",
+	        "Shells": [
+	            "Gnome"
+	        ],
+	        "Description": "Classic Blueprint found in Gnome 2",
+            "Icon": "blueprint_icon.png",
+	        "Thumbnails": [
+                "blueprint.png",
+                "blueprint_busy.png",
+                "blueprint_demo.png",
+                "blueprint_config.png"
+            ],
+	        "Downloads": 650,
+			"Repository": "https://github.com/B00merang-Project/Solaris-10",
+			"License": "GPL v3",
+			"Version": 2.0
+	    },
+	    {
+	        "ThemeName": "Solaris 9",
+	        "Collection": "Solaris",
+	        "Category": "GTK theme",
+	        "Shells": [
+	            "Gnome"
+	        ],
+	        "Description": "The CDE desktop's appearance installed, among others, on Solaris 9",
+            "Icon": "cde_icon.png",
+	        "Thumbnails": [
+                "cde.png",
+                "cde_busy.png",
+                "cde_demo.png",
+                "cde_config.png"
+            ],
+	        "Downloads": 900,
+			"Repository": "https://github.com/B00merang-Project/Solaris-9",
+			"License": "GPL v3",
+			"Version": 2.0
+	    },
+        
+
+
+        {
+            "ThemeName": "Windows 10",
+            "Collection": "Windows icons",
+            "Category": "Icon theme",
+            "Shells": "Any",
+            "Description": "Light and modern icon pack based on Windows 10",
+            "Icon": "win10_icon.png",
+            "Thumbnails": [
+                "win10_icons.png",
+                "win10_icons_explorer.png",
+                "win10_icons_cmd.png",
+                "win10_icons_settings.png"
+            ],
+            "Downloads": 7000,
+			"Repository": "https://github.com/B00merang-Artwork/Windows-10",
+			"License": "Proprietary",
+			"Version": "beta"
+        },
+        {
+            "ThemeName": "Windows 8",
+            "Collection": "Windows icons",
+            "Category": "Icon theme",
+            "Shells": "Any",
+            "Description": "Windows 8.1's icon theme",
+            "Icon": "win8_icon.png",
+            "Thumbnails": [
+                "win8_icons.png",
+                "win8_icons_explorer.png",
+                "win8_icons_cmd.png",
+                "win8_icons_settings.png"
+            ],
+            "Downloads": 3100,
+			"Repository": "https://github.com/B00merang-Artwork/Windows-8",
+			"License": "Proprietary",
+			"Version": "beta"
+        },
+		{
+            "ThemeName": "Windows 7",
+            "Collection": "Windows icons",
+            "Category": "Icon theme",
+            "Shells": "Any",
+            "Description": "Aero-based icon pack",
+            "Icon": "win7_icon.png",
+            "Thumbnails": [
+                "win7_icons.png",
+                "win7_icons_explorer.png",
+                "win7_icons_cmd.png",
+                "win7_icons_settings.png"
+            ],
+            "Downloads": 1200,
+			"Repository": "https://github.com/B00merang-Artwork/Windows-7",
+			"License": "Proprietary",
+			"Version": "beta"
+        },
+		{
+            "ThemeName": "Windows XP",
+            "Collection": "Windows icons",
+            "Category": "Icon theme",
+            "Shells": "Any",
+            "Description": "Icon pack restoring the YlmfOS/Windows XP icons",
+            "Icon": "winxp_icon.png",
+            "Thumbnails": [
+                "winxp_icons.png",
+                "winxp_icons_explorer.png",
+                "winxp_icons_cmd.png",
+                "winxp_icons_settings.png"
+            ],
+            "Downloads": 12300,
+			"Repository": "https://github.com/B00merang-Artwork/Windows-XP",
+			"License": "Proprietary",
+			"Version": "beta"
+        }
+	]
+}

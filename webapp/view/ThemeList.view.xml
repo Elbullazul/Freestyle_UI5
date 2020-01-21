@@ -1,0 +1,75 @@
+<mvc:View
+	controllerName="sap.ui.demo.sequel.Sequel.controller.ThemeList"
+	xmlns="sap.m"
+	xmlns:c="sap.ui.demo.sequel.Sequel.control"
+	xmlns:core="sap.ui.core"
+	xmlns:mvc="sap.ui.core.mvc">
+	<Table
+		id="themeTable"
+		headerText="{i18>themeListTitle}"
+		class="sapUIResponsiveMargin"
+		width="auto"
+		items="{
+			path : 'theme>/Themes',
+			sorter : [
+				{
+					path: 'Category',
+					group : false
+				},
+				{
+					path: 'Collection',
+					group : false
+				},
+				{
+					path: 'ThemeName',
+					group : false
+				}
+			]
+		}">
+		<headerToolbar>
+			<Toolbar>
+	            <Title text="{i18n>search}"/>
+	            <ToolbarSpacer/>
+	            <SearchField width="50%" search=".onFilterThemes"/>
+			</Toolbar>
+    	</headerToolbar>
+		<columns>
+			<!--
+			<Column
+				hAlign="End">
+				<Text text="" />
+			</Column>
+			-->
+			<Column>
+				<Title text="{i18n>name}" />
+			</Column>
+			<Column>
+				<Title text="{i18n>collection}"/>
+			</Column>
+			<Column
+				minScreenWidth="Tablet"
+				demandPopin="false">
+				<Title text="{i18n>shells}" />
+			</Column>
+			<Column width="2.5em">
+				<Title text="" />
+			</Column>
+		</columns>
+		<items>
+			<ColumnListItem
+				type="Navigation"
+				press=".onPress"
+				tooltip="{theme>Description}">
+				<cells>
+					<!--
+					<core:Icon src="{= ${theme>Category} === 'GTK theme' ? 'sap-icon://palette' : 'sap-icon://SAP-icons-TNT/interface'}"/>
+					-->
+					<Text text="{theme>ThemeName}"/>
+					<Text text="{theme>Collection}"/>
+					<Text text="{theme>Shells}"/>
+					<c:LinkButton type="Emphasized" href="{theme>src}" icon="sap-icon://download"/>
+				</cells>
+			</ColumnListItem>
+		</items>
+	</Table>
+</mvc:View>

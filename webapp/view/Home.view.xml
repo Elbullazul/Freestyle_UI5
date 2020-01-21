@@ -1,0 +1,27 @@
+<mvc:View
+	controllerName="sap.ui.demo.sequel.Sequel.controller.Home"
+	displayBlock="false"
+	xmlns:mvc="sap.ui.core.mvc"
+	xmlns:core="sap.ui.core"
+	xmlns="sap.m"
+	xmlns:c="sap.ui.demo.sequel.Sequel.control">
+	<Page
+		title="{i18n>homePageTitle}"
+		showNavButton="false">
+		<headerContent>
+			<Button text="" icon="sap-icon://email" press=".onContactPress" tooltip="{i18n>contactUs}"/>
+			<Button text="" icon="sap-icon://hint" press=".onInfoPress" tooltip="{i18n>info}"/>
+			<Button text="" icon="sap-icon://sys-help" press=".onHelpPress" tooltip="{i18n>support}"/>
+			<Button text="" icon="sap-icon://line-chart" press=".onStatsPress" tooltip="{i18n>stats}"/>
+			<c:LinkButton href="https://www.paypal.me/Elbullazul" icon="sap-icon://lead" text="{i18n>donate}" type="Success"/>
+		</headerContent>
+		<mvc:XMLView viewName="sap.ui.demo.sequel.Sequel.view.ProjectDescription"/>
+		<mvc:XMLView viewName="sap.ui.demo.sequel.Sequel.view.ThemeList"/>
+		
+		<!-- Not working site-wide
+		<footer>
+			<core:Fragment fragmentName="sap.ui.demo.sequel.Sequel.fragment.Footer" type="XML" />
+		</footer>
+		-->
+	</Page>
+</mvc:View>

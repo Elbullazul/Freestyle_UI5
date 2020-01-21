@@ -1,0 +1,62 @@
+<mvc:View
+	controllerName="sap.ui.demo.sequel.Sequel.controller.Stats"
+	xmlns="sap.m"
+	xmlns:l="sap.ui.layout"
+	xmlns:core="sap.ui.core"
+	xmlns:mvc="sap.ui.core.mvc">
+	<Page
+		title="{i18n>statsPageTitle}"
+		showNavButton="true"
+		navButtonPress=".onNavBack">
+		<Panel width="auto" accessibleRole="Region">
+			<headerToolbar>
+				<OverflowToolbar height="3rem">
+					<Title text="{i18n>disclaimer}"/>
+				</OverflowToolbar>
+			</headerToolbar>
+			<content>
+				<l:HorizontalLayout>
+					<core:Icon
+						src="sap-icon://pie-chart"
+						size="5rem"/>
+		            <VBox class="sapUiSmallMarginBegin">
+						<Text text="{i18n>statsMethod}" />
+						<Text text="{i18n>statsNote}" />
+						<Text text="{i18n>statsDate}: {i18n>statsLastCount}" class="sapUiMediumMarginTop"/>
+					</VBox>
+				</l:HorizontalLayout>
+			</content>
+		</Panel>
+		<List
+			id="themeList"
+			headerText="{i18n>themeListTitle}"
+			width="auto"
+			items="{
+				path : 'theme>/Themes',
+				sorter : [
+				{
+					path : 'Downloads',
+					descending : true,
+					group : false
+				},
+				{
+					path: 'ThemeName',
+					group : false
+				},
+				{
+					path: 'Collection',
+					group : false
+				}
+			]
+			}">
+			<items>
+				<ObjectListItem
+					icon="../img/{theme>Icon}"
+					intro="{theme>Category}"
+					title="{theme>ThemeName}"
+					number="{theme>Downloads}"
+					numberUnit="{i18n>downloads}"/>
+			</items>
+		</List>
+	</Page>
+</mvc:View>

@@ -1,0 +1,9 @@
+<core:FragmentDefinition
+	xmlns="sap.m"
+	xmlns:core="sap.ui.core" >>
+	<OverflowToolbar id="otbFooter">
+		<ToolbarSpacer/>
+		<Text text="{i18n>copyright}"/>
+		<ToolbarSpacer/>
+	</OverflowToolbar>
+</core:FragmentDefinition>
